@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ARVELA INNOVACIÓN</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #1f2933;
+      background: #f7f8f5;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #13281d, #36563a);
+      color: white;
+      padding: 90px 10%;
+    }
+    header h1 {
+      font-size: 52px;
+      margin: 0 0 10px;
+      letter-spacing: 1px;
+    }
+    header h2 {
+      font-size: 26px;
+      font-weight: 400;
+      margin: 0 0 25px;
+      max-width: 900px;
+    }
+    header p {
+      font-size: 18px;
+      max-width: 860px;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 14px 24px;
+      background: white;
+      color: #1f3d2b;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 70px 10%;
+    }
+    h2 {
+      font-size: 34px;
+      color: #1f3d2b;
+      margin-bottom: 15px;
+    }
+    .intro {
+      max-width: 950px;
+      font-size: 18px;
+      margin-bottom: 35px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+    }
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 28px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #1f3d2b;
+      font-size: 23px;
+    }
+    .tag {
+      display: inline-block;
+      margin-bottom: 12px;
+      padding: 6px 12px;
+      border-radius: 20px;
+      background: #e4eee5;
+      color: #1f3d2b;
+      font-size: 13px;
+      font-weight: bold;
+    }
+    .dark {
+      background: #1f3d2b;
+      color: white;
+    }
+    .dark h2 {
+      color: white;
+    }
+    .tech {
+      font-size: 14px;
+      margin-top: 18px;
+      color: #425241;
+      font-weight: bold;
+    }
+    .contact {
+      text-align: center;
+      background: #edf2ea;
+    }
+    .contact p {
+      max-width: 760px;
+      margin: 0 auto 25px;
+      font-size: 18px;
+    }
+    footer {
+      text-align: center;
+      padding: 28px;
+      background: #142018;
+      color: #d8e0d8;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>ARVELA INNOVACIÓN</h1>
+  <h2>Tecnología, datos e inteligencia artificial para transformar procesos complejos en decisiones útiles.</h2>
+  <p>
+    Diseñamos plataformas inteligentes que integran sensores, visión artificial,
+    datos abiertos, analítica y automatización para mejorar la toma de decisiones
+    en empresas, administraciones y sectores productivos.
+  </p>
+  <a class="button" href="mailto:info@arvela.es?subject=Quiero%20m%C3%A1s%20informaci%C3%B3n">
+    Solicitar información
+  </a>
+</header>
+
+<section>
+  <h2>Qué hacemos</h2>
+  <p class="intro">
+    ARVELA desarrolla soluciones tecnológicas que conectan información procedente
+    del mundo real —sensores, cámaras, sistemas empresariales, datos públicos y
+    usuarios— para convertirla en alertas, automatización, cuadros de mando y
+    conocimiento accionable.
+  </p>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Inteligencia Artificial</h3>
+      <p>Modelos de clasificación, detección de patrones, priorización, predicción y apoyo a la toma de decisiones.</p>
+    </div>
+    <div class="card">
+      <h3>Analítica de Datos</h3>
+      <p>Cuadros de mando, KPIs, modelos de negocio, integración de datos y visualización operativa.</p>
+    </div>
+    <div class="card">
+      <h3>Integración IoT</h3>
+      <p>Conexión de sensores, dispositivos, APIs, plataformas externas y datos abiertos.</p>
+    </div>
+    <div class="card">
+      <h3>Visión Artificial</h3>
+      <p>Análisis de imagen y vídeo para detectar personas, vehículos, animales, objetos e incidencias.</p>
+    </div>
+    <div class="card">
+      <h3>Automatización</h3>
+      <p>Flujos de trabajo, reglas inteligentes, notificaciones, informes y procesos automáticos.</p>
+    </div>
+    <div class="card">
+      <h3>Consultoría Tecnológica</h3>
+      <p>Diseño de producto, estrategia digital, arquitectura tecnológica y transformación basada en datos.</p>
+    </div>
+  </div>
+</section>
+
+<section class="dark">
+  <h2>Una plataforma tecnológica, múltiples soluciones</h2>
+  <p class="intro">
+    Nuestros proyectos comparten una arquitectura común basada en integración de datos,
+    APIs, inteligencia artificial, visión artificial, automatización y analítica avanzada.
+    Esta base permite acelerar nuevas soluciones y adaptarlas a distintos sectores.
+  </p>
+</section>
+
+<section>
+  <h2>Proyectos y líneas de solución</h2>
+
+  <div class="grid">
+
+    <div class="card">
+      <span class="tag">Rural Tech</span>
+      <h3>Rural Care</h3>
+      <p>
+        Plataforma SaaS para la digitalización de explotaciones ganaderas. Integra
+        bolus ruminales, collares GPS, datos meteorológicos, cartografía y otras
+        fuentes para ofrecer una visión global del estado del rebaño.
+      </p>
+      <p>
+        Su objetivo es detectar eventos sanitarios, reproductivos y de comportamiento,
+        generar alertas inteligentes y facilitar decisiones basadas en datos para
+        ganaderos, veterinarios y administraciones.
+      </p>
+      <p class="tech">IoT · APIs · GPS · Datos abiertos · Dashboards · Alertas · Analítica</p>
+    </div>
+
+    <div class="card">
+      <span class="tag">Vision AI</span>
+      <h3>ARVELA Vision</h3>
+      <p>
+        Solución de visión artificial que convierte cámaras IP o sistemas CCTV
+        existentes en una plataforma inteligente capaz de analizar vídeo en tiempo real.
+      </p>
+      <p>
+        Permite identificar personas, vehículos, animales, objetos, intrusiones
+        o comportamientos anómalos, generando alertas automáticas para seguridad,
+        industria, explotaciones, edificios o entornos urbanos.
+      </p>
+      <p class="tech">Computer Vision · YOLO · OpenCV · ONNX · Edge AI · Streaming · Alertas</p>
+    </div>
+
+    <div class="card">
+      <span class="tag">Smart City</span>
+      <h3>Smart Citizen</h3>
+      <p>
+        Plataforma colaborativa para ayuntamientos y ciudadanos orientada al reporte,
+        clasificación y seguimiento de incidencias urbanas.
+      </p>
+      <p>
+        A partir de una fotografía y la ubicación, la IA identifica el tipo de incidencia
+        —baches, mobiliario roto, basura, accesibilidad o vía pública— y ayuda a
+        priorizarla y derivarla al área responsable.
+      </p>
+      <p class="tech">Geolocalización · IA · Computer Vision · Dashboards · Workflow · APIs</p>
+    </div>
+
+    <div class="card">
+      <span class="tag">Business Intelligence</span>
+      <h3>Business Intelligence & Consulting</h3>
+      <p>
+        Soluciones de analítica y consultoría para empresas que necesitan convertir
+        información dispersa en decisiones de negocio.
+      </p>
+      <p>
+        Integramos ERP, CRM, hojas de cálculo, APIs y sistemas internos para construir
+        cuadros de mando, automatizar informes, detectar desviaciones y mejorar
+        procesos comerciales, operativos o financieros.
+      </p>
+      <p class="tech">Data Warehouse · SQL · Python · Power BI · APIs · Automatización · IA</p>
+    </div>
+
+    <div class="card">
+      <span class="tag">Education</span>
+      <h3>Smart Learning</h3>
+      <p>
+        Plataforma de aprendizaje inteligente basada en analítica educativa,
+        repetición adaptativa e inteligencia artificial.
+      </p>
+      <p>
+        Cada estudiante dispone de un itinerario que evoluciona según su progreso,
+        reforzando conceptos con dificultad y ofreciendo a docentes información
+        útil para realizar seguimiento individualizado.
+      </p>
+      <p class="tech">Learning Analytics · IA · Repetición espaciada · Evaluación · Dashboards</p>
+    </div>
+
+    <div class="card">
+      <span class="tag">Health Analytics</span>
+      <h3>Health & Dental Analytics</h3>
+      <p>
+        Plataforma de analítica para clínicas y servicios profesionales orientada a
+        mejorar gestión, seguimiento de pacientes y rentabilidad.
+      </p>
+      <p>
+        Permite analizar presupuestos, recurrencia, pacientes inactivos, conversión,
+        agenda, ingresos y actividad comercial, ayudando a identificar oportunidades
+        de mejora y crecimiento.
+      </p>
+      <p class="tech">BI · CRM · Dashboards · Predicción · Automatización · Integración de sistemas</p>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <h2>Base tecnológica común</h2>
+  <p class="intro">
+    Todas las soluciones parten de una misma lógica: conectar datos, analizarlos
+    mediante IA y transformarlos en decisiones, alertas o procesos automáticos.
+  </p>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Entrada de datos</h3>
+      <p>Sensores, cámaras, formularios, software empresarial, APIs, datos abiertos y sistemas externos.</p>
+    </div>
+    <div class="card">
+      <h3>Procesamiento inteligente</h3>
+      <p>Modelos de IA, reglas de negocio, clasificación automática, detección de patrones y análisis predictivo.</p>
+    </div>
+    <div class="card">
+      <h3>Acción operativa</h3>
+      <p>Alertas, dashboards, informes, priorización, automatización y apoyo a la toma de decisiones.</p>
+    </div>
+  </div>
+</section>
+
+<section class="contact">
+  <h2>Contacto</h2>
+  <p>
+    Si quieres conocer más sobre ARVELA INNOVACIÓN, explorar una colaboración
+    o solicitar información sobre alguna de nuestras líneas de trabajo, contacta con nosotros.
+  </p>
+  <a class="button" href="mailto:info@arvela.es?subject=Quiero%20m%C3%A1s%20informaci%C3%B3n">
+    Quiero más información
+  </a>
+</section>
+
+<footer>
+  © 2026 ARVELA INNOVACIÓN · Tecnología, datos e inteligencia artificial
+</footer>
+
+</body>
+</html>
